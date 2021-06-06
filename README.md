@@ -2,6 +2,10 @@
 
 A new Flutter application.
 
+## UI
+
+![alt text](https://github.com/Ayushi673/EmpowHer/blob/main/images/Screenshot_1622993444.png?raw=true)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
