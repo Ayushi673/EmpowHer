@@ -4,6 +4,7 @@ import 'package:empowerher/screens/details.dart';
 import 'package:empowerher/screens/legal.dart';
 import 'package:empowerher/screens/donate.dart';
 import 'package:empowerher/screens/sharepage.dart';
+import 'package:empowerher/screens/hospital.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main()
@@ -100,7 +101,7 @@ class Page2 extends StatelessWidget {
   Future navigateToHospital(context) async {
     Navigator.push(context,
         MaterialPageRoute(
-          builder: (context) => MyHomepage(),
+          builder: (context) => Hospital(),
         )
     );
   }
@@ -164,7 +165,7 @@ class Page2 extends StatelessWidget {
                     pressed: (){
                       print('pressed');
                       //navigateToSubPage(context);
-                      navigateToShelter(context);
+                      navigateToHospital(context);
                     }),
                 MyButton(
                     buttontext: 'Legal Advisory Firms',
@@ -176,7 +177,7 @@ class Page2 extends StatelessWidget {
                     buttontext: 'Hospital emergency',
                     pressed: (){
                       print('pressed');
-                      //navigateToSubPage(context);
+                      navigateToHospital(context);
                     }),
                 SizedBox(height: 50),
               ],
